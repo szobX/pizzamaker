@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "209b407e2ae57afa956c",
+    "revision": "29ac6eb6d34155274f8d",
     "url": "/pizzamaker/static/css/main.b59c4fef.chunk.css"
   },
   {
-    "revision": "209b407e2ae57afa956c",
-    "url": "/pizzamaker/static/js/main.209b407e.chunk.js"
+    "revision": "29ac6eb6d34155274f8d",
+    "url": "/pizzamaker/static/js/main.29ac6eb6.chunk.js"
   },
   {
     "revision": "5102a289015063ade4ee",
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/pizzamaker/static/media/base.546b631b.svg"
   },
   {
-    "revision": "bf124529738ad75f3252e1167741938a",
+    "revision": "574103dbe89a7239998a89ede17d9e54",
     "url": "/pizzamaker/index.html"
   }
 ];
