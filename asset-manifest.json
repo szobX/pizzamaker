@@ -1,0 +1,19 @@
+{
+  "main.css": "/pizzamaker/static/css/main.b59c4fef.chunk.css",
+  "main.js": "/pizzamaker/static/js/main.52cbf4f1.chunk.js",
+  "main.js.map": "/pizzamaker/static/js/main.52cbf4f1.chunk.js.map",
+  "runtime~main.js": "/pizzamaker/static/js/runtime~main.5102a289.js",
+  "runtime~main.js.map": "/pizzamaker/static/js/runtime~main.5102a289.js.map",
+  "static/css/2.ae01ed03.chunk.css": "/pizzamaker/static/css/2.ae01ed03.chunk.css",
+  "static/js/2.652de154.chunk.js": "/pizzamaker/static/js/2.652de154.chunk.js",
+  "static/js/2.652de154.chunk.js.map": "/pizzamaker/static/js/2.652de154.chunk.js.map",
+  "index.html": "/pizzamaker/index.html",
+  "precache-manifest.5bca3043146e7f27b5bc4b5090f05a35.js": "/pizzamaker/precache-manifest.5bca3043146e7f27b5bc4b5090f05a35.js",
+  "service-worker.js": "/pizzamaker/service-worker.js",
+  "static/css/2.ae01ed03.chunk.css.map": "/pizzamaker/static/css/2.ae01ed03.chunk.css.map",
+  "static/css/main.b59c4fef.chunk.css.map": "/pizzamaker/static/css/main.b59c4fef.chunk.css.map",
+  "static/media/base.svg": "/pizzamaker/static/media/base.546b631b.svg",
+  "static/media/becon.svg": "/pizzamaker/static/media/becon.f43caed9.svg",
+  "static/media/mushroom.svg": "/pizzamaker/static/media/mushroom.b4262e03.svg",
+  "static/media/tomato.svg": "/pizzamaker/static/media/tomato.93558262.svg"
+}
