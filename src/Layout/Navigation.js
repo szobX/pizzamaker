@@ -10,9 +10,7 @@ const NavBar = () => {
             </button>
             <div className="collapse navbar-collapse" id="navbarsExampleDefault">
                 <ul className="navbar-nav mr-auto">
-                    <NavLink className="navbar-brand" to="/" exact activeClassName="activeLink">Build your pizza</NavLink>
-                    <NavLink className="navbar-brand" to="/Ingredients" activeClassName="activeLink">Ingredients</NavLink>
-                    <NavLink className="navbar-brand" to="/#" exact activeClassName="activeLink">Authentication</NavLink>
+                    <NavLink className="navbar-brand" to="/Ingredients" disabled activeClassName="disabled">Lista pizz</NavLink>
                 </ul>
             </div>
         </nav>

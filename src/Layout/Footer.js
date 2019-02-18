@@ -4,6 +4,7 @@ const Footer = () => {
     return (
         <footer>
             Created By @ Patyk Szober
+
         </footer>
     );
 }

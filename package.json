@@ -2,7 +2,7 @@
   "name": "pizzamaker",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://szobx.github.io/szobX.github.io-pizza-maker/",
+  "homepage": "https://szobx.github.io/pizzamaker",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.0.1",

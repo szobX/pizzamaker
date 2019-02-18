@@ -4,7 +4,7 @@ const ShowPizza = (props) => {
 
 
     return (
-        <div className="col-md-8 order-md-1 h-100 ">
+        <div className="col-lg-8 order-md-1 h-100 ">
             <h3 className="">Twoja Pizza:</h3>
             <div className="d-flex px-5 ">
                 <div className="row card-list flex-wrap ">

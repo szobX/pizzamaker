@@ -5,9 +5,10 @@ import Footer from "./Footer.js";
 
 const Layout = props => {
   return (
-    <div>
+    <div className="">
       <NavBar />
       {props.children}
+
       <Footer />
     </div>
   );

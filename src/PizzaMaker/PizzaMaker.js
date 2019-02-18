@@ -2,12 +2,15 @@ import React, { Component } from "react";
 import ShowPizza from './ShowPizza/ShowPizza';
 import ComponentsMenu from './ComponentsMenu/ComponentsMenu'
 import { PizzaBase, ComponentsPizza } from '../List/componentPizza';
+import FormOrder from '../Layout/FormOrder';
 class PizzaMaker extends Component {
   state = {
     pizzaComponents: { ...ComponentsPizza },
     pizzaComposition: {},
     basicprice: 4,
     costs: 0,
+    howManyComp: 0,
+
   }
   componentDidMount() {
     this.createEmptyPizza();
@@ -29,19 +32,22 @@ class PizzaMaker extends Component {
   handleClick = (what, component, price) => {
     let editComposition = { ...this.state.pizzaComposition }
     let cost = this.state.costs;
-
+    let howMany = this.state.howManyComp
     Object.keys(editComposition).forEach(item => {
       if (item === component && what) {
         editComposition[item]++
         cost = Math.round((cost + price) * 100) / 100
+        howMany++
       }
       if (item === component && !what) {
         editComposition[item]--
         cost = Math.round((cost - price) * 100) / 100
+        howMany--
       }
       this.setState(prevState => ({
         pizzaComposition: editComposition,
-        costs: cost
+        costs: cost,
+        howManyComp: howMany
       }))
     })
     // console.log(Object.keys(newComposition), item);
@@ -58,6 +64,7 @@ class PizzaMaker extends Component {
   }
   render() {
     return (
+
       <div className="row no-gutters h-100">
         <ShowPizza
           PizzaBase={PizzaBase}
@@ -70,8 +77,11 @@ class PizzaMaker extends Component {
           reset={this.restartPizza}
           basicPrice={this.state.basicprice}
           costs={this.state.costs}
+          howMany={this.state.howManyComp}
         />
+        <FormOrder />
       </div>
+
     );
   }
 }
