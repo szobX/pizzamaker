@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "52cbf4f11a61e094e526",
+    "revision": "209b407e2ae57afa956c",
     "url": "/pizzamaker/static/css/main.b59c4fef.chunk.css"
   },
   {
-    "revision": "52cbf4f11a61e094e526",
-    "url": "/pizzamaker/static/js/main.52cbf4f1.chunk.js"
+    "revision": "209b407e2ae57afa956c",
+    "url": "/pizzamaker/static/js/main.209b407e.chunk.js"
   },
   {
     "revision": "5102a289015063ade4ee",
     "url": "/pizzamaker/static/js/runtime~main.5102a289.js"
   },
   {
-    "revision": "652de154c9504df24c28",
+    "revision": "723570b2fe5fa2dbb73b",
     "url": "/pizzamaker/static/css/2.ae01ed03.chunk.css"
   },
   {
-    "revision": "652de154c9504df24c28",
-    "url": "/pizzamaker/static/js/2.652de154.chunk.js"
+    "revision": "723570b2fe5fa2dbb73b",
+    "url": "/pizzamaker/static/js/2.723570b2.chunk.js"
   },
   {
     "revision": "935582626ede9e5c720199e7e04021c9",
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/pizzamaker/static/media/base.546b631b.svg"
   },
   {
-    "revision": "13577454fa86246a3619b930befa690d",
+    "revision": "bf124529738ad75f3252e1167741938a",
     "url": "/pizzamaker/index.html"
   }
 ];

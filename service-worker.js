@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/pizzamaker/precache-manifest.5bca3043146e7f27b5bc4b5090f05a35.js"
+  "/pizzamaker/precache-manifest.4d1d96c44f2a7dbe070aae1e58277bff.js"
 );
 
 workbox.clientsClaim();
