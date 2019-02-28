@@ -1,0 +1,2 @@
+przy inicjacji componentu sprawdzamy propsy czy istanieje przekierowanie z gotowej pizzy 
+

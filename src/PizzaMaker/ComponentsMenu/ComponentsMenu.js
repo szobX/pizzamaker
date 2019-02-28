@@ -9,7 +9,7 @@ const ComponentsMenu = props => {
     const pizzaMenuList = Object.keys(props.components).map((key, index) => (
         <ComponentsMenuItem
             handleClick={props.handleClick}
-            key={key.id}
+            key={key}
             keyname={key}
             name={components[key].name}
             price={components[key].price}

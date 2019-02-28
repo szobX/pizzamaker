@@ -44,3 +44,9 @@ border:2px solid #000;
 .border h4{
   width: 90px;
 }
+
+
+/* SWAL style */
+.swal-overlay {
+  background-color: rgba(43, 165, 137, 0.45);
+}
